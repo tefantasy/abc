@@ -27,7 +27,7 @@ ABC_NAMESPACE_IMPL_START
 ///                        DECLARATIONS                              ///
 ////////////////////////////////////////////////////////////////////////
 
-static Cnf_Man_t * s_pManCnf = NULL;
+static _Thread_local Cnf_Man_t * s_pManCnf = NULL;
 
 ////////////////////////////////////////////////////////////////////////
 ///                     FUNCTION DEFINITIONS                         ///
